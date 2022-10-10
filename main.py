@@ -42,9 +42,9 @@ def is_interesting(n,awesome_phrases):
     #I would pass only 1 argument, and include "awesome_phrases" in interesting(n)
     if n ==98:
         return 1
-    if n==99:
+    elif n==99:
         return 1
-    if n in awesome_phrases:
+    elif n in awesome_phrases:
         return 2
     elif n-1 in awesome_phrases or n-2 in awesome_phrases or n+1 in awesome_phrases or n+2 in awesome_phrases:
         return 1
